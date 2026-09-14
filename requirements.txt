@@ -5,3 +5,4 @@ nltk
 joblib
 fastapi
 uvicorn
+huggingface_hub
