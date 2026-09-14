@@ -1,0 +1,28 @@
+{
+    "model_name": "Logistic Regression",
+    "version": "1.0",
+    "task": "Expense Description Categorization",
+    "algorithm": "TF-IDF + Logistic Regression",
+    "training_samples": 4168,
+    "testing_samples": 1043,
+    "accuracy": 0.9386,
+    "precision_weighted": 0.9405,
+    "recall_weighted": 0.9386,
+    "f1_score_weighted": 0.9384,
+    "categories": [
+        "Bills & Utilities",
+        "Education",
+        "Entertainment",
+        "Food & Dining",
+        "Groceries",
+        "Healthcare",
+        "Miscellaneous",
+        "Shopping",
+        "Transportation",
+        "Travel"
+    ],
+    "ngram_range": [
+        1,
+        2
+    ]
+}
